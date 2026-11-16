@@ -7,9 +7,9 @@ body{
 .blok1{
     border: 2px solid;
     background-color: rgba(0, 110, 77, 0.516);
-    width: 200px;
-    height: 50px;
+    width: 125px;
     display: flex;
+    flex-direction: row;
 
 
 }
@@ -18,29 +18,28 @@ body{
     background-color: rgba(225, 255, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 }
 .b2{
     border: 2px solid;
     background-color: rgba(255, 2, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 }
 .b3{
     border: 2px solid;
     background-color: rgb(74, 2, 255);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 }
 .blok2{
     border: 2px solid;
     background-color: rgba(0, 110, 77, 0.516);
-    width: 200px;
-    height: 50px;
+    width: 125px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
 
 }
 .b4{
@@ -48,32 +47,32 @@ body{
     background-color: rgba(225, 255, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
-    justify-self: end;
+
+    
 }
 .b5{
     border: 2px solid;
     background-color: rgba(255, 2, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
-    justify-content: flex-end;
+
+    
 }
 .b6{
     border: 2px solid;
     background-color: rgb(74, 2, 255);
     width:25px ;
     height: 25px;
-    margin: 5px;
-    justify-self: end;
+
+
 }
 .blok3{
     border: 2px solid;
     background-color: rgba(0, 110, 77, 0.516);
-    width: 200px;
-    height: 50px;
+    height: 125px;
+    width: 28px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
 }
 .b7{
@@ -81,7 +80,7 @@ body{
     background-color: rgba(225, 255, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 
 }
 .b8{
@@ -89,7 +88,7 @@ body{
     background-color: rgba(255, 2, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 
 }
 .b9{
@@ -97,31 +96,28 @@ body{
     background-color: rgb(74, 2, 255);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 
 }
 .blok4{
-    border: 2px solid;
+     border: 2px solid;
     background-color: rgba(0, 110, 77, 0.516);
-    width: 200px;
-    height: 50px;
+    height: 125px;
+    width: 28px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column-reverse;
 }
 .b10{
     border: 2px solid;
     background-color: rgba(225, 255, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
-
 }
 .b11{
     border: 2px solid;
     background-color: rgba(255, 2, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
 
 }
 .b12{
@@ -129,7 +125,6 @@ body{
     background-color: rgb(74, 2, 255);
     width:25px ;
     height: 25px;
-    margin: 5px;
 
 }
 .blok5{
@@ -138,7 +133,7 @@ body{
     width: 200px;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    align-items: stretch;
 }
 .b13{
     border: 2px solid;
@@ -167,25 +162,25 @@ body{
 .blok6{
     border: 2px solid;
     background-color: rgba(0, 110, 77, 0.516);
-    width: 200px;
-    height: 50px;
+    width: 125px;
+    height: 75px;
     display: flex;
-    justify-content: space-evenly;
+    align-items: flex-start;
 }
 .b16{
     border: 2px solid;
     background-color: rgba(225, 255, 2, 0.516);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
 
 }
 .b17{
     border: 2px solid;
     background-color: rgba(255, 2, 2, 0.516);
     width:25px ;
-    height: 25px;
-    margin: 5px;
+    height: 50px;
+
 
 }
 .b18{
@@ -193,5 +188,68 @@ body{
     background-color: rgb(74, 2, 255);
     width:25px ;
     height: 25px;
-    margin: 5px;
+
+}
+.blok7{
+    border: 2px solid;
+    background-color: rgba(0, 110, 77, 0.516);
+    display: flex;
+    width: 125px;
+    height: 75px;
+    align-items: center;
+
+}
+.b19{
+    border: 2px solid;
+    background-color: rgba(225, 255, 2, 0.516);
+    width:25px ;
+    height: 50px;
+
+
+}
+.b20{
+    border: 2px solid;
+    background-color: rgba(255, 2, 2, 0.516);
+    width:25px ;
+    height: 25px;
+
+
+}
+.b21{
+    border: 2px solid;
+    background-color: rgb(74, 2, 255);
+    width:25px ;
+    height: 25px;
+
+}
+.blok8{
+    border: 2px solid;
+    background-color: rgba(0, 110, 77, 0.516);
+    width: 125px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.b22{
+    border: 2px solid;
+    background-color: rgba(225, 255, 2, 0.516);
+    width:25px ;
+    height: 25px;
+
+
+}
+.b23{
+    border: 2px solid;
+    background-color: rgba(255, 2, 2, 0.516);
+    width:25px ;
+    height: 50px;
+
+
+}
+.b24{
+    border: 2px solid;
+    background-color: rgb(74, 2, 255);
+    width:25px ;
+    height: 25px;
+
 }
