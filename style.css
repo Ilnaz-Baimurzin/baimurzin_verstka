@@ -34,3 +34,21 @@ p{
 ol{
     list-style-type: square;
 }
+#parent{
+    color: rgb(255, 0, 0) ;
+    border: 2px solid; 
+    margin: 50px;
+}
+#parentc{
+    background-color: rgb(50, 0, 248) ;
+    border: 2px dashed;
+    margin: 30px;
+    
+}
+#parentcd{
+    color: rgb(255, 255, 255) ;
+    border: 2px solid;
+    margin: 10px;
+    
+
+}
