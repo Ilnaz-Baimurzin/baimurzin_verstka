@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://images.genius.com/78e5612a7efb0755083bea4f2a313c40.736x736x1.jpg);
+}
+.zagolovok{
+    color: aqua;
+    text-align: center;
+}
+p{
+    color: aqua;
+}
+
+.one{
+    text-align: left;
+    color: brown;
+}
+.two{
+    text-align: right;
+    color: brown;
+}
+.three{
+    text-align: center;
+    color: brown;
+}
+.fr{
+    text-align: justify;
+    color: brown;
+}
+.fw{
+    color: blue;
+}
+.table{
+    color: brown;
+}
+ol{
+    list-style-type: square;
+}
