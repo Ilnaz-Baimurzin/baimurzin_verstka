@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://images.genius.com/78e5612a7efb0755083bea4f2a313c40.736x736x1.jpg);
+    background-image: url(https://preview.redd.it/which-is-your-favorite-castiel-episode-in-supernatural-v0-al4o6v5vfdsc1.jpg?width=783&format=pjpg&auto=webp&s=7f4de05e0db5c5010fcc1ad57625dd7cc873e500);
 }
 .zagolovok{
     color: aqua;
@@ -51,4 +51,27 @@ ol{
     margin: 10px;
     
 
+}
+.span1{
+    color: blueviolet;
+    border: 1px solid;
+}
+.span2{
+    color: rgb(0, 255, 94);
+    border: 1px solid;
+}
+.span3{
+    color: rgb(255, 4, 4);
+    border: 1px solid;
+}
+.block{
+    border: 3px solid;
+    color: red;
+    display: block;
+}
+.part1{
+    color: rgb(0, 255, 0);
+    border: 2px solid;
+    display: inline;
+    border-color: blue;
 }
